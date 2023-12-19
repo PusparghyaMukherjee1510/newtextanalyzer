@@ -39,7 +39,7 @@ export default function Navbar(props) {
           <Link to="/" style={{textDecoration: 'none',padding: '5px', color: props.mode==='light'?'black':'white'}}>{props.home}</Link>
         </li>
         <li className="nav-item">
-         <Link to="/about" style={{textDecoration: 'none',padding: '5px', color: props.mode==='light'?'black':'white'}}>{props.aboutus}</Link>
+         <Link to="/about" style={{textDecoration: 'none',padding: '5px', color: props.mode==='light'?'black':'white'}} >{props.aboutus}</Link>
         </li>
         
       </ul>
