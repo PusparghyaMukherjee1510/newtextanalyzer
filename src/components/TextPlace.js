@@ -67,7 +67,7 @@ export default function TextPlace(props) {
     </div>
     <div className="container">
       <h3>Text Summary</h3>
-      <p>{text.split(" ").filter((elem)=>{return elem.length!==0}).length} Words and {text.length} Characters</p>
+      <p>{text.split(/\s+/).filter((elem)=>{return elem.length!==0}).length} Words and {text.length} Characters</p>
       <p>{0.008 * text.split(" ").filter((elem)=>{return elem.length!==0}).length}Minutes to Read</p>
       <h2>Preview</h2>
       <p>{text.length===0?"Enter Something to show preview":text}</p>
