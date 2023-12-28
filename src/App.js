@@ -14,7 +14,7 @@ function App() {
   //const [tgtext, setTgText]=useState('Turn On Darkmode');
   const [btnText, setBtnText]=useState('Enable Dark Mode');
 const [alert, setAlert]=useState(null);
-//const [page, setPage]=useState('Home');
+
 
 const showAlert=(message, type)=>{
   
@@ -45,11 +45,7 @@ const showAlert=(message, type)=>{
     }
   }
 
-  // const togglePage=()=>{
-  //   if (page==='about') {
-  //     setPage(document.title='NewTextAnalyzer-About');
-  //   }
-  // }
+  
 
   // const toggleText=()=>{
   //   if (tgtext==='Turn On Darkmode') {

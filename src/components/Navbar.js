@@ -2,6 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from "react-router-dom";
 export default function Navbar(props) {
+  // const [page, setPage]=useState('Home');
+  // const togglePage=()=>{
+  //   if (page==='about') {
+  //     setPage(document.title='NewTextAnalyzer-About');
+  //   }
+  // }
 
 
 //   const [theStyle, setTheStyle]=useState({
@@ -39,7 +45,7 @@ export default function Navbar(props) {
           <Link to="/" style={{textDecoration: 'none',padding: '5px', color: props.mode==='light'?'black':'white'}}>{props.home}</Link>
         </li>
         <li className="nav-item">
-         <Link to="/about" style={{textDecoration: 'none',padding: '5px', color: props.mode==='light'?'black':'white'}} >{props.aboutus}</Link>
+         <Link to="/about" style={{textDecoration: 'none',padding: '5px', color: props.mode==='light'?'black':'white'}}>{props.aboutus}</Link>
         </li>
         
       </ul>
